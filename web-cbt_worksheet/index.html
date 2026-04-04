@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<!--
+========================================================================
+HEADER
+========================================================================
+-->
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width = device-width, initial-scale = 1.0">
+	
+	<link rel="stylesheet" href ="style.css">
+	<script src="script.js" defer></script>
+
+	<title>CBT Worksheet</title>
+</head>
+<!--
+========================================================================
+MAIN START
+========================================================================
+-->
+<body>
+<!-- ======================================================================== -->	
+	<main>
+		<div id="info">
+			<h1>Cognitive Behavioral Therapy Worksheet</h1>
+			<p>After a situation, people often have automatic thoughts that are distorted</p>
+			<p>Once identified, the thought is examined</p>
+			<p>This type of worksheet helps a person identify, analyze, and change unhelpful thoughts and behaviors.</p>
+			<p>ex.</p><br>
+			<table>
+				<tbody>
+					<tr>
+						<td class="step">01. Situation</td>
+						<td class="example">: Failed a test</td>
+					</tr>
+					<tr>
+						<td class="step">02. Automatic thought</td>
+						<td class="example">: “Im stupid.”</td>
+					</tr>
+					<tr>
+						<td class="step">03. Emotion</td>
+						<td class="example">: Sad (80%)</td>
+					</tr>
+					<tr>
+						<td class="step">04. Evidence for thought</td>
+						<td class="example">: I failed this test</td>
+					</tr>
+					<tr>
+						<td class="step">05. Evidence against thought</td>
+						<td class="example">: Passed previous exams</td>
+					</tr>
+					<tr>
+						<td class="step">06. Balanced thought</td>
+						<td class="example">: “One test doesnt define my ability.”</td>
+					</tr>
+					<tr>
+						<td class="step">07. Outcome</td>
+						<td class="example">: Sadness reduced to 40% :)</td>
+					</tr>
+				</tbody>
+			</table>
+			<br>
+			<br>
+		</div>
+<!-- ======================================================================== -->	
+		<div class="columnContainer">
+			<div class="columnContent">
+				<textarea 
+					id="situation" 
+					placeholder="situation"></textarea>
+			</div>
+			<div class="columnContent">
+				<textarea 
+					id="automatic_thought" 
+					placeholder="automatic thought"></textarea>
+			</div>
+			<div class="columnContent">
+				<textarea 
+					id="emotion" 
+					placeholder="emotion"></textarea>
+			</div>
+		</div>
+		<div class="columnContainer">
+			<div class="columnContent">
+				<textarea 
+					id="evidence_for" 
+					placeholder="evidence for thought"></textarea>
+			</div>
+			<div class="columnContent">
+				<textarea 
+					id="evidence_against" 
+					placeholder="evidence against thought"></textarea>
+			</div>
+			<div class="columnContent">
+				<textarea 
+					id="balanced_thought" 
+					placeholder="balanced thought"></textarea>
+			</div>
+		</div>
+		<br>
+		<button id="buttonClear">CLEAR</button>
+		<button id="buttonExport">EXPORT</button>
+	</main>
+<!-- ======================================================================== -->
+	<footer>
+	</footer>
+</body>
+<!--
+========================================================================
+MAIN END
+========================================================================
+-->
+</html>

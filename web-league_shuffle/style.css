@@ -1,0 +1,85 @@
+/*PHONE(Default) stylesheet__________________________*/
+@media only screen and (min-width: 1px){
+
+	*{
+		font-family: Courier, arial;
+		color: rgba(255,255,255,255);
+		font-size: 15px;
+	}
+	body{
+		background-color: rgba(0,0,0,255);
+	}
+	header{
+		padding: 10vh 10VW 10px 10vw;   /* N E S W */
+	}
+	main{
+		padding: 10px 30vw 10px 5vw;   /* N E S W */
+	}
+	p{
+		padding: 10px 0 0 0;
+		margin: 0;
+		font-family: Courier, arial; 
+		/* just so that theres no error */
+	}
+	h1{
+		font-size: 25px;
+		margin: 0;
+	}
+	input{
+		padding: 10px 50px 10px 10px;
+		color: rgba(0,0,0,255);
+	}
+	/* ========================= */
+	textarea, select, button, option{
+		background-color: black;
+		border: 1px solid white;
+	}
+	button:hover, select:hover, option:checked{
+		background-color: #666;
+		color: #000;
+		font-weight: bold;
+	}
+	textarea {
+		resize: none;
+	}
+	/* ========================= */
+	table{
+		margin-left: 30px;
+	}
+	td, tr{
+		display: flex;
+	}
+	td{
+		margin-right: 15px;
+	}
+	.selectRoles{
+		padding: auto;
+	}
+	/* ========================= */
+	.columnContainer {
+		display: flex;
+	}
+	.columnContent {
+		border: 1px solid black;
+	}
+	/* ========================= */
+	#info{
+		width: 250px;
+	}
+
+
+	option:active{
+		background-color: purple;
+	}
+	option:checed{
+		background-color: yellow;
+	}
+	option:focus-visible{
+		background-color: red;
+	}
+}
+
+/*PC stylesheet______________________________________*/
+@media only screen and (min-width: 1000px){
+
+}

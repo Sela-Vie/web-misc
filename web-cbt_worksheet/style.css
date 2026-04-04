@@ -1,0 +1,84 @@
+/*PHONE(Default) stylesheet__________________________*/
+@media only screen and (min-width: 1px){
+
+	*{
+		font-family: Courier, arial;
+		color: rgba(255,255,255,255);
+		font-size: 15px;
+	}
+	body{
+		background-color: rgba(0,0,0,255);
+	}
+	header{
+		padding: 10vh 10VW 10px 10vw;   /* N E S W */
+	}
+	main{
+		padding: 10px 0px 10px 5vw;   /* N E S W */
+	}
+	p{
+		padding: 10px 0 0 0;
+		margin: 0;
+		font-family: Courier, arial; 
+		/* just so that theres no error */
+	}
+	h1{
+		font-size: 25px;
+		margin: 0;
+	}
+	input{
+		padding: 10px 50px 10px 10px;
+		color: rgba(0,0,0,255);
+	}
+	/* ========================= */
+	textarea, select, button, option{
+		background-color: black;
+		border: 1px solid white;
+	}
+	button:hover, select:hover, option:checked{
+		background-color: #fff;
+		color: #000;
+		font-weight: bold;
+	}
+	button{
+		text-align: center;
+		height: 40px;
+		width: 100px;
+	}
+	textarea {
+		resize: none;
+		padding: 5px;
+		width: calc(100vw / 5);
+		height: calc(100vh / 4);
+	}
+	/* ========================= */
+ 	tr{
+		display: flex;
+	}
+	tbody{
+		margin-right: 15px;
+	}
+	/* ========================= */
+	.columnContainer {
+		display: flex;
+	}
+	.columnContent {
+		border: 1px solid black;
+		margin-right: 10px ;
+	}
+	/* ========================= */
+	#info{
+		width: 50vw;
+	}
+	.step{
+		width: 275px;
+
+	}
+	.example {
+		width:500px;
+	}
+}
+
+/*PC stylesheet______________________________________*/
+@media only screen and (min-width: 1000px){
+
+}
