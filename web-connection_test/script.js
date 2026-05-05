@@ -25,8 +25,15 @@ async function chooseBest(ip1, ip2) {
     pingTest(ip2)
   ]);
 
-  let bestIP = null;
+  // explicit: both failed / timed out
+  if (t1 === Infinity && t2 === Infinity) {
+    return {
+      bestIP: null,
+      latency: { [ip1]: t1, [ip2]: t2 }
+    };
+  }
 
+  let bestIP = null;
   if (t1 < t2) bestIP = ip1;
   else if (t2 < t1) bestIP = ip2;
 
