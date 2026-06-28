@@ -1,0 +1,24 @@
+{
+  "info": {
+    "_postman_id": "5a8a1754-c574-466c-90f4-e062c6eade5e",
+    "name": "misc",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "38818934"
+  },
+  "item": [
+    {
+      "name": "python_flask_test",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": {
+          "raw": "ds",
+          "host": [
+            "ds"
+          ]
+        }
+      },
+      "response": []
+    }
+  ]
+}
