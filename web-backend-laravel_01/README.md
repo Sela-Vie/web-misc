@@ -47,7 +47,7 @@ php artisan make:model Post -mcr --api
 # making migration, model, and controller templates respectively
 php artisan make:migration create_posts_table
 php artisan make:model Post
-php artisan make:controller PostController --resource
+php artisan make:controller PostController --api
 ```
 for naming conventions:
 ***models*** and ***controllers*** use pascal case and singular tense
