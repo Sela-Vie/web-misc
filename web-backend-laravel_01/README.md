@@ -2,7 +2,7 @@
 | prerequisite | version |
 | -------- | -------- |
 | php |  8.2-8.4 |
-| composer | latest |
+| composer | any ¯\_(ツ)_/¯ (latest is g i think) |
 ```
 php --version
 composer --version
