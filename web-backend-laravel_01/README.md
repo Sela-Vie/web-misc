@@ -45,7 +45,7 @@ php artisan serve
 php artisan make:model Post -mcr --api
 
 # making migration, model, and controller templates respectively
-php artisan make:migration create_post_table
+php artisan make:migration create_posts_table
 php artisan make:model Post
 php artisan make:controller PostController --resource
 ```
